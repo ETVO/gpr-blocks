@@ -1,10 +1,10 @@
-.cf-banner {
+.gpr-banner {
 
     background-repeat: no-repeat;
     background-position: center 35%;
     background-size: cover;
     background-attachment: scroll;
-    height: 70vh;
+    height: 60vh;
     
     color: white !important;
 
@@ -15,51 +15,42 @@
     }
 
     .overlay { 
-        background-color: rgba(#000000, .2);
+        background: linear-gradient(90deg, rgba(#0A2F40, .9), rgba(#0A2F40, 0) 70%);
     }
 
     .banner-content {
 
-        &:not(.invert-align) { 
-            margin-right: 250px;
-            margin-left: auto;
-        }
-
-        &.invert-align {
-            margin-right: auto;
-            margin-left: 250px;
-        }
+        margin-right: auto;
+        margin-left: 160px;
 
         .title {
-            font-family: 'RebellionKnight' !important;
-    
-            text-shadow: 0px 0px 10px rgba(#000, .6);
-            
-            font-size: calc(2.5rem + 2vw);
-            margin: 0;
+            font-weight: bold;
+            line-height: 1;
+            margin-bottom: 1.5rem;
         }
     
         .subtitle {
-            text-transform: uppercase;
-            font-weight: 200;
-            letter-spacing: 2px;
-            margin: 0;
+            font-weight: 400;
+            line-height: 1;
+        }
+
+        .titles {
+            margin-bottom: 2.5rem;
         }
     
         .action a {
-            border-radius: 5px;
-            padding: 10px 30px;
-            
-            background: linear-gradient(90deg, #FFC038, #FF6D13);
+            text-transform: uppercase;
+
+            border-radius: 28px;
+            padding: 7px 14px;
+        
             color: white !important;
+
+            font-weight: 600;
             
-            font-size: .75rem;
+            font-size: .8rem;
     
             transition: background-color .2s;
-    
-            &:hover, &:active, &:focus {
-                background-color: #12265C;
-            }
         }
     }
 
@@ -68,39 +59,43 @@
 @media all and (min-width: 1440px) {
     
     
-    .cf-banner {
+    .gpr-banner {
         .banner-content {
-            &:not(.invert-align) { 
-                margin-right: 20vw;
-            }
-
-            &.invert-align {
-                margin-left: 20vw;
-            }
+            margin-left: 20vw;
         }
     }
     
 }
 
+@media all and (min-width: 992px) {
+    .gpr-banner {
+        height: 70vh;
+        .banner-content {
+            max-width: 350px;
+        }
+    }
+}
+
 @media all and (min-height: 1024px) {
     
-    .cf-banner {
+    .gpr-banner {
         height: 50vh;
     }
 }
 
 
-@media all and (max-width: 991px) {
-    
-    
-    .cf-banner {
+@media all and (max-width: 992.1px) {
+    .gpr-banner {
         .banner-content {
             margin-right: auto !important;
             margin-left: auto !important;
 
-            .title {
-                
-                font-size: calc(2.5rem + 0.9vw);
+            .titles {
+                margin-bottom: 1.5rem;
+
+                .title {
+                    margin-bottom: 1rem;
+                }
             }
         }
     }

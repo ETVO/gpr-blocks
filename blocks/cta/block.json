@@ -1,9 +1,9 @@
 {
     "slug": "cta",
     "title": "CTA",
-    "desc": "Carrossel de banners",
+    "desc": "CTA Carrossel",
     "icon": " bi bi-flag",
-    "categ": "cfblock",
+    "categ": "gprblock",
     "usesInner": true,
     "attrs": {
     },
@@ -15,7 +15,7 @@
         {
             "tag": "input",
             "type": "inner",
-            "blocks": [ "cfblock/banner" ],
+            "blocks": [ "gprblock/banner" ],
             "label": "Banners"
         }
     ],

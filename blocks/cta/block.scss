@@ -1,57 +1,82 @@
-@import './banner/block.scss';
+@import "./banner/block.scss";
 
-$control-icon-size: 14px;
+$control-icon-size: 2.5rem;
 
-.cf-cta {
-
+.gpr-cta {
     .carousel-control {
-        &-prev, 
+        &-prev:hover {
+            background: linear-gradient(90deg, rgba(#000, 0.25), rgba(#000, 0));
+        }
+        &-next:hover {
+            background: linear-gradient(-90deg, rgba(#000, 0.25), rgba(#000, 0));
+        }
+
+        &-prev,
         &-next {
-            position: relative;
-            top: unset;
-            bottom: unset;
-            left: unset;
-            right: unset;
-
-            width: 40px;
-            height: 25px;
             opacity: 1;
-            border-radius: 5px;
-            
-            background-color: rgba(255, 255, 255, .8);
-            transition: background-color .2s ease;
 
-            &:hover {
-                background-color: rgba(255, 255, 255, 1);
-            }
+            width: calc($control-icon-size * 3);
 
             .carousel-control-next-icon,
             .carousel-control-prev-icon {
-                // width: $control-icon-size;
-                // height: $control-icon-size;
+                border-radius: 50%;
+                margin: auto;
+                width: $control-icon-size;
+                height: $control-icon-size;
 
+                background-color: rgba(#000000, 0.5);
+                transition: background-color 0.2s ease;
                 opacity: 1;
-                
-                font-size: $control-icon-size;
-                color: #010C2A !important;
+
+                font-size: calc($control-icon-size / 2);
+
+                color: white !important;
                 font-family: bootstrap-icons;
                 font-weight: bolder;
 
                 background-image: none;
-                
+
                 display: flex;
             }
 
-            .carousel-control-prev-icon::before {    
-                content: "\f284";
-                margin: auto;            
+            &:hover {
+                opacity: 1;
+                .carousel-control-next-icon,
+                .carousel-control-prev-icon {
+                    background-color: rgba(#000000, 1);
+                }
             }
 
-            .carousel-control-next-icon::before {
-                content: "\f285";            
+            .carousel-control-prev-icon::before {
+                content: "\f284";
                 margin: auto;
             }
 
+            .carousel-control-next-icon::before {
+                content: "\f285";
+                margin: auto;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 992px) {
+    .gpr-cta {
+        .carousel-control {
+            &-prev,
+            &-next {
+                position: relative;
+                top: unset;
+                bottom: unset;
+                left: unset;
+                right: unset;
+
+                width: calc($control-icon-size);
+                height: calc($control-icon-size);
+                opacity: 1;
+                border-radius: 5px;
+                display: inline-flex;
+            }
         }
     }
 }

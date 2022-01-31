@@ -3,7 +3,7 @@
     "title": "(CTA) Banner",
     "desc": "Imagem, título, subtítulo e ação",
     "icon": " bi bi-flag",
-    "categ": "cfblock",
+    "categ": "gprblock",
     "attrs": {
         "title": {
             "type": "string"
@@ -16,12 +16,6 @@
         },
         "image": {
             "type": "string"
-        },
-        "order": {
-            "type": "boolean"
-        },
-        "align": {
-            "type": "boolean"
         }
     },
     "edit": [
