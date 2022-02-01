@@ -1,0 +1,63 @@
+@import "./depoimento/block.scss";
+
+$control-icon-size: 1.5rem;
+
+.gpr-depoimentos {
+    background-color: #ffffff;
+
+    .title {
+        * {
+            font-weight: 400;
+            color: #195766;
+        }
+    }
+
+    .carousel {
+        padding: 0;
+        display: flex;
+
+        .carousel-control {
+            &-prev,
+            &-next {
+                width: 5%;
+                position: relative;
+                opacity: 1;
+
+                .carousel-control-next-icon,
+                .carousel-control-prev-icon {
+                    opacity: 1;
+
+                    font-size: calc($control-icon-size);
+
+                    color: var(--bs-primary);
+                    font-family: bootstrap-icons;
+                    font-weight: bolder;
+
+                    background-image: none;
+
+                    display: flex;
+                    margin-bottom: 2rem;
+                }
+
+                &:hover,
+                &:focus,
+                &:active {
+                    .carousel-control-next-icon,
+                    .carousel-control-prev-icon {
+                        opacity: 0.6;
+                    }
+                }
+
+                .carousel-control-prev-icon::before {
+                    content: "\f284";
+                    margin: auto;
+                }
+
+                .carousel-control-next-icon::before {
+                    content: "\f285";
+                    margin: auto;
+                }
+            }
+        }
+    }
+}

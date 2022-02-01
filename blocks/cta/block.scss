@@ -4,11 +4,19 @@ $control-icon-size: 2.5rem;
 
 .gpr-cta {
     .carousel-control {
-        &-prev:hover {
-            background: linear-gradient(90deg, rgba(#000, 0.25), rgba(#000, 0));
+        &-prev {
+            &:hover,
+            &:focus,
+            &:active {
+                background: linear-gradient(90deg, rgba(#000, 0.25), rgba(#000, 0));
+            }
         }
-        &-next:hover {
-            background: linear-gradient(-90deg, rgba(#000, 0.25), rgba(#000, 0));
+        &-next {
+            &:hover,
+            &:focus,
+            &:active {
+                background: linear-gradient(-90deg, rgba(#000, 0.25), rgba(#000, 0));
+            }
         }
 
         &-prev,
@@ -39,7 +47,9 @@ $control-icon-size: 2.5rem;
                 display: flex;
             }
 
-            &:hover {
+            &:hover,
+            &:focus,
+            &:active {
                 opacity: 1;
                 .carousel-control-next-icon,
                 .carousel-control-prev-icon {
