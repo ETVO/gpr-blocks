@@ -1,0 +1,12 @@
+@import "./carac/block.scss";
+
+.gpr-present {
+    .content {
+        padding: 2rem;
+        display: flex;
+        .inner {
+            max-width: 450px;
+            margin: auto auto auto 0;
+        }
+    }
+}

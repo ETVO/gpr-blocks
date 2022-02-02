@@ -1,0 +1,29 @@
+{
+    "slug": "carac",
+    "title": "(Apresentação) Característica",
+    "desc": "Ícone e Descrição",
+    "icon": " bi bi-award",
+    "categ": "gprblock",
+    "attrs": {
+        "icon": {
+            "type": "string"
+        },
+        "desc": {
+            "type": "string"
+        }
+    },
+    "edit": [
+        {
+            "tag": "input",
+            "type": "image",
+            "attr": "icon",
+            "label": "Ícone"
+        },
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "desc",
+            "label": "Descrição"
+        }
+    ]
+}

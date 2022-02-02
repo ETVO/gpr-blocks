@@ -1,0 +1,36 @@
+{
+    "slug": "numeros",
+    "title": "Números",
+    "desc": "Números",
+    "icon": " bi bi-123",
+    "categ": "gprblock",
+    "usesInner": true,
+    "attrs": {
+        "title": {
+            "type": "string"
+        }
+    },
+    "edit": [
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "title",
+            "label": "Título"
+        },
+        {
+            "tag": "title",
+            "title": "Números"
+        },
+        {
+            "tag": "input",
+            "type": "inner",
+            "blocks": [ "gprblock/numero" ],
+            "label": "Números"
+        }
+    ],
+    "children": [
+        {
+            "path": "numero/"
+        }
+    ]
+}

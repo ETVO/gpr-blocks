@@ -1,0 +1,47 @@
+{
+    "slug": "ctaempre",
+    "title": "CTA Empreendimento",
+    "desc": "Título, Imagem de fundo e Botão",
+    "icon": " bi bi-flag-fill",
+    "categ": "gprblock",
+    "attrs": {
+        "image": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        },
+        "link": {
+            "type": "string"
+        },
+        "linkText": {
+            "type": "string"
+        }
+    },
+    "edit": [
+        {
+            "tag": "input",
+            "type": "image",
+            "attr": "image",
+            "label": "Imagem de fundo"        
+        },
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "title",
+            "label": "Título"
+        },
+        {
+            "tag": "input",
+            "type": "url",
+            "attr": "link",
+            "label": "Link do botão"
+        },
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "linkText",
+            "label": "Texto do botão"
+        }
+    ]
+}

@@ -1,0 +1,38 @@
+{
+    "slug": "numero",
+    "title": "(Números) Número",
+    "desc": "Texto, Foto e Nome",
+    "icon": " bi bi-123",
+    "categ": "gprblock",
+    "attrs": {
+        "icon": {
+            "type": "string"
+        },
+        "number": {
+            "type": "string"
+        },
+        "desc": {
+            "type": "string"
+        }
+    },
+    "edit": [
+        {
+            "tag": "input",
+            "type": "image",
+            "attr": "icon",
+            "label": "Ícone"
+        },
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "number",
+            "label": "Número"
+        },
+        {
+            "tag": "input",
+            "type": "rich",
+            "attr": "desc",
+            "label": "Descrição"        
+        }
+    ]
+}
