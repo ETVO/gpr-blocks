@@ -1,0 +1,19 @@
+.gpr-barra {
+    display: block;
+
+    .desc {
+        text-transform: uppercase;
+        font-size: .8rem;
+        color: #56838E;
+        
+        .percent {
+            color: #195766;
+            font-weight: 600;
+        }
+    }
+
+    .progress {
+        border-radius: 10px !important;
+        overflow: hidden;
+    }
+}

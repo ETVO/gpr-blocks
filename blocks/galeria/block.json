@@ -1,0 +1,29 @@
+{
+    "slug": "galeria",
+    "title": "Galeria",
+    "desc": "Galeria",
+    "icon": " bi bi-collection",
+    "categ": "gprblock",
+    "attrs": {
+        "title": {
+            "type": "string"
+        },
+        "images": {
+            "type": "array"
+        }
+    },
+    "edit": [
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "title",
+            "label": "Título"
+        },
+        {
+            "tag": "input",
+            "type": "gallery",
+            "attr": "images",
+            "label": "Imagens"
+        }
+    ]
+}

@@ -25,6 +25,15 @@
         },
         {
             "path": "./video/"
+        },
+        {
+            "path": "./galeria/"
+        },
+        {
+            "path": "./andamento/"
+        },
+        {
+            "path": "./mapempre/"
         }
     ]
 }

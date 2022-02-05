@@ -1,0 +1,45 @@
+{
+    "slug": "andamento",
+    "title": "Andamento",
+    "desc": "Barras de progresso",
+    "icon": " bi bi-layout-text-sidebar",
+    "categ": "gprblock",
+    "usesInner": true,
+    "attrs": {
+        "title": {
+            "type": "string"
+        },
+        "image": {
+            "type": "string"
+        }
+    },
+    "edit": [
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "title",
+            "label": "Título"
+        },
+        {
+            "tag": "input",
+            "type": "image",
+            "attr": "image",
+            "label": "Imagem"
+        },
+        {
+            "tag": "title",
+            "title": "Barras"
+        },
+        {
+            "tag": "input",
+            "type": "inner",
+            "blocks": [ "gprblock/barra" ],
+            "label": "Barras"
+        }
+    ],
+    "children": [
+        {
+            "path": "barra/"
+        }
+    ]
+}

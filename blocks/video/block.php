@@ -14,7 +14,7 @@ function render_block_video($attributes, $content)
     ob_start(); // Start HTML buffering
 ?>
 
-    <div class="gpr-video py-5 bg-white">
+    <div class="gpr-video py-4 py-md-5 bg-white">
         <div class="row g-0 w-100 m-0 p-0">
             <div class="content col-12 col-lg-6 d-flex">
                 <div class="inner">
@@ -23,15 +23,15 @@ function render_block_video($attributes, $content)
                     </div>
                     <div class="caracs mt-4">
                         <div class="carac d-flex">
-                            <img src="<?php echo THEME_IMG_URI . '/dormitorios.png'; ?>" alt="">
+                            <img src="<?php echo THEME_IMG_URI . '/dormitorios.svg'; ?>" alt="">
                             <span><?php echo $dormitorios; ?></span>
                         </div>
                         <div class="carac d-flex">
-                            <img src="<?php echo THEME_IMG_URI . '/metragem.png'; ?>" alt="">
+                            <img src="<?php echo THEME_IMG_URI . '/metragem.svg'; ?>" alt="">
                             <span><?php echo $metragem; ?></span>
                         </div>
                         <div class="carac d-flex">
-                            <img src="<?php echo THEME_IMG_URI . '/area.png'; ?>" alt="">
+                            <img src="<?php echo THEME_IMG_URI . '/area.svg'; ?>" alt="">
                             <span><?php echo $area; ?></span>
                         </div>
                     </div>
@@ -41,7 +41,7 @@ function render_block_video($attributes, $content)
                     </div>
                 </div>
             </div>
-            <div class="image col-12 col-lg-6">
+            <div class="image col-12 col-lg-6 order-first order-md-last">
                 <?php echo $video; ?>
             </div>
         </div>

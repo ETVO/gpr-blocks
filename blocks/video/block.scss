@@ -40,3 +40,25 @@
         object-fit: contain;
     }
 }
+
+
+@media all and (max-width: 992px) {
+    .gpr-video {
+        .content {        
+            .inner {
+                margin: auto auto auto 0;
+            }
+        }
+    }
+}
+
+@media all and (max-width: 576px) {
+    .gpr-video {
+        .content {      
+            padding: 2rem 1rem;  
+            .inner {
+                margin: auto auto auto 0;
+            }
+        }
+    }
+}

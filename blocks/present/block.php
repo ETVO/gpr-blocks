@@ -10,7 +10,7 @@ function render_block_present($attributes, $content)
     ob_start(); // Start HTML buffering
 ?>
 
-    <div class="gpr-present py-5 bg-white">
+    <div class="gpr-present py-3 py-md-5 bg-white">
         <div class="row g-0 w-100 m-0 p-0">
             <div class="image col-12 col-lg-6">
                 <img class="w-100" src="<?php echo $image; ?>" alt="">
