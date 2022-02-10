@@ -1,0 +1,27 @@
+{
+    "slug": "btns",
+    "title": "Botões",
+    "desc": "Opções",
+    "icon": " bi bi-forward",
+    "categ": "gprblock",
+    "usesInner": true,
+    "attrs": {
+    },
+    "edit": [
+        {
+            "tag": "title",
+            "title": "Botões"
+        },
+        {
+            "tag": "input",
+            "type": "inner",
+            "blocks": [ "gprblock/btn" ],
+            "label": "Botões"
+        }
+    ],
+    "children": [
+        {
+            "path": "btn/"
+        }
+    ]
+}

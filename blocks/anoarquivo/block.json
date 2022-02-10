@@ -1,0 +1,136 @@
+{
+    "slug": "anoarquivo",
+    "title": "Ano Arquivo",
+    "desc": "Ano e Arquivo de Meses",
+    "icon": " bi bi-bookshelf",
+    "categ": "gprblock",
+    "attrs": {
+        "year": {
+            "type": "string"
+        },
+        "jan": {
+            "type": "string"
+        },
+        "fev": {
+            "type": "string"
+        },
+        "mar": {
+            "type": "string"
+        },
+        "apr": {
+            "type": "string"
+        },
+        "may": {
+            "type": "string"
+        },
+        "jun": {
+            "type": "string"
+        },
+        "jul": {
+            "type": "string"
+        },
+        "aug": {
+            "type": "string"
+        },
+        "sep": {
+            "type": "string"
+        },
+        "oct": {
+            "type": "string"
+        },
+        "nov": {
+            "type": "string"
+        },
+        "dec": {
+            "type": "string"
+        }
+    },
+    "edit": [
+        {
+            "tag": "title",
+            "title": "Ano"
+        },
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "year",
+            "label": "Ano"
+        },
+        {
+            "tag": "title",
+            "title": "Meses"
+        },
+        {
+            "tag": "input",
+            "type": "url",
+            "attr": "jan",
+            "label": "Janeiro"
+        },
+        {
+            "tag": "input",
+            "type": "url",
+            "attr": "fev",
+            "label": "Fevereiro"
+        },
+        {
+            "tag": "input",
+            "type": "url",
+            "attr": "mar",
+            "label": "Março"
+        },
+        {
+            "tag": "input",
+            "type": "url",
+            "attr": "apr",
+            "label": "Abril"
+        },
+        {
+            "tag": "input",
+            "type": "url",
+            "attr": "may",
+            "label": "Maio"
+        },
+        {
+            "tag": "input",
+            "type": "url",
+            "attr": "jun",
+            "label": "Junho"
+        },
+        {
+            "tag": "input",
+            "type": "url",
+            "attr": "jul",
+            "label": "Julho"
+        },
+        {
+            "tag": "input",
+            "type": "url",
+            "attr": "aug",
+            "label": "Agosto"
+        },
+        {
+            "tag": "input",
+            "type": "url",
+            "attr": "sep",
+            "label": "Setembro"
+        },
+        {
+            "tag": "input",
+            "type": "url",
+            "attr": "oct",
+            "label": "Outubro"
+        },
+        {
+            "tag": "input",
+            "type": "url",
+            "attr": "nov",
+            "label": "Novembro"
+        },
+        {
+            "tag": "input",
+            "type": "url",
+            "attr": "dec",
+            "label": "Dezembro"
+        }
+    ]
+}

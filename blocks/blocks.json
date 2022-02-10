@@ -33,6 +33,12 @@
             "path": "./andamento/"
         },
         {
+            "path": "./anoarquivo/"
+        },
+        {
+            "path": "./btns/"
+        },
+        {
             "path": "./mapempre/"
         }
     ]

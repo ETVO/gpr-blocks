@@ -1,0 +1,29 @@
+{
+    "slug": "btn",
+    "title": "(Botões) Botão",
+    "desc": "Texto e Link",
+    "icon": " bi bi-forward",
+    "categ": "gprblock",
+    "attrs": {
+        "text": {
+            "type": "string"
+        },
+        "link": {
+            "type": "string"
+        }
+    },
+    "edit": [
+        {
+            "tag": "input",
+            "type": "rich",
+            "attr": "text",
+            "label": "Texto"        
+        },
+        {
+            "tag": "input",
+            "type": "url",
+            "attr": "link",
+            "label": "Link"
+        }
+    ]
+}
