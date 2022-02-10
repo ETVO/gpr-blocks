@@ -5,7 +5,7 @@ function render_block_pergunta($attributes)
     $question = $attributes['question'];
     $answer = $attributes['answer'];
 
-    $id = 'pergunta' . rand(0, 99);
+    $id = 'pergunta' . str_replace([' '], '', $question) . rand(0, 999);
 
     ob_start(); // Start HTML buffering
 ?>
