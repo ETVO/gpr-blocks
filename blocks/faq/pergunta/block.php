@@ -5,9 +5,7 @@ function render_block_pergunta($attributes)
     $question = $attributes['question'];
     $answer = $attributes['answer'];
 
-    $_question = str_replace(' ', '', $question); // Replaces all spaces with hyphens.
-
-    $_question = preg_replace('/[^A-Za-z0-9\-]/', '', $_question); // Removes special chars.
+    $_question = clean_str($question);
 
     $id = 'pergunta' . $_question . rand(0, 999);
 

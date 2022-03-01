@@ -1,23 +1,8 @@
 <?php
 
-function render_block_anoarquivo($attributes)
+function render_block_anoarquivo($attributes, $content)
 {
     $year = $attributes['year'];
-
-    $months = [
-        'jan' => 'Janeiro', 
-        'fev' => 'Fevereiro', 
-        'mar' => 'Março', 
-        'apr' => 'Abril', 
-        'may' => 'Maio', 
-        'jun' => 'Junho', 
-        'jul' => 'Julho', 
-        'aug' => 'Agosto', 
-        'sep' => 'Setembro', 
-        'oct' => 'Outubro', 
-        'nov' => 'Novembro', 
-        'dec' => 'Dezembro'
-    ];
 
     ob_start(); // Start HTML buffering
 ?>
@@ -31,20 +16,7 @@ function render_block_anoarquivo($attributes)
             </div>
             <div class="col-12 col-lg-9 months">
                 <div class="row g-3">
-                    <?php 
-                    foreach($months as $month => $name): 
-                        $class = '';
-                        $value = $attributes[$month];
-                        if(!isset($value)) $class = 'disabled';
-                    ?>
-
-                        <div class="col-6 col-md-3 month <?php echo $class ?>">
-                            <a class="inner" href="<?php echo $value; ?>" target="_blank">
-                                <?php echo $name; ?>
-                            </a>
-                        </div>
-
-                    <?php endforeach; ?>
+                    <?php echo $content; ?>
                 </div>
             </div>
         </div>
