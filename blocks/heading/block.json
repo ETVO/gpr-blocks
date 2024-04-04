@@ -1,0 +1,29 @@
+{
+    "slug": "heading",
+    "title": "Cabeçalho",
+    "desc": "Título e Foto",
+    "icon": " bi bi-easel",
+    "categ": "gprblock",
+    "attrs": {
+        "image": {
+            "type": "string"
+        },
+        "title": {
+            "type": "string"
+        }
+    },
+    "edit": [
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "title",
+            "label": "Título"
+        },
+        {
+            "tag": "input",
+            "type": "image",
+            "attr": "image",
+            "label": "Imagem de fundo"        
+        }
+    ]
+}

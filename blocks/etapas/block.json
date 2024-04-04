@@ -1,0 +1,36 @@
+{
+    "slug": "etapas",
+    "title": "Etapas",
+    "desc": "Etapas dos Projetos",
+    "icon": " bi bi-align-bottom",
+    "categ": "gprblock",
+    "usesInner": true,
+    "attrs": {
+        "timeline": {
+            "type": "string"
+        }
+    },
+    "edit": [
+        {
+            "tag": "input",
+            "type": "image",
+            "attr": "timeline",
+            "label": "Linha do Tempo"
+        },
+        {
+            "tag": "title",
+            "title": "Etapas"
+        },
+        {
+            "tag": "input",
+            "type": "inner",
+            "blocks": [ "gprblock/etapa" ],
+            "label": "Etapas"
+        }
+    ],
+    "children": [
+        {
+            "path": "etapa/"
+        }
+    ]
+}

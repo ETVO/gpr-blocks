@@ -1,0 +1,38 @@
+{
+    "slug": "video",
+    "title": "Vídeo",
+    "desc": "Texto, características, data de entrega e vídeo",
+    "icon": " bi bi-aspect-ratio",
+    "categ": "gprblock",
+    "attrs": {
+        "date": {
+            "type": "string"
+        },
+        "video": {
+            "type": "string"
+        },
+        "text": {
+            "type": "string"
+        }
+    },
+    "edit": [
+        {
+            "tag": "input",
+            "type": "textarea",
+            "attr": "video",
+            "label": "Embed do YouTube"
+        },
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "date",
+            "label": "Data da Entrega"
+        },
+        {
+            "tag": "input",
+            "type": "rich",
+            "attr": "text",
+            "label": "Texto"
+        }
+    ]
+}

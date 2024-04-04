@@ -1,0 +1,29 @@
+{
+    "slug": "pergunta",
+    "title": "(FAQ) Pergunta",
+    "desc": "Pergunta e resposta",
+    "icon": " bi bi-question",
+    "categ": "gprblock",
+    "attrs": {
+        "question": {
+            "type": "string"
+        },
+        "answer": {
+            "type": "string"
+        }
+    },
+    "edit": [
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "question",
+            "label": "Pergunta"
+        },
+        {
+            "tag": "input",
+            "type": "rich",
+            "attr": "answer",
+            "label": "Resposta"        
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+.gpr-depoimento {
+    .column-wrap {
+        padding: 0 0.65rem;
+
+        // &:first-child {
+        //     padding-left: 0;
+        // }
+        // &:last-child {
+        //     padding-right: 0;
+        // }
+    }
+
+    .inner {
+        border-radius: 20px;
+        overflow: hidden;
+        background-color: #eef3f4;
+
+        padding: 20px 15px;
+
+        .text {
+            margin-bottom: 1.15rem;
+            font-size: .9rem;
+        }
+
+        .author {
+            .photo {
+                margin: auto 0;
+                img {
+                    height: 50px;
+                    width: 50px;
+                    object-fit: cover;
+                    border-radius: 50%;
+                }
+            }
+
+            .name {
+                margin: auto 0;
+                margin-left: .75rem;
+                color: #108796;
+                font-weight: 600;
+            }
+        }
+    }
+}

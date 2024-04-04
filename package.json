@@ -1,0 +1,21 @@
+{
+  "name": "gpr-blocks",
+  "version": "1.0.0",
+  "description": "WordPress plugin exclusively developed for the **GPR Empreendimentos** website that can be accessed [here](http://gprinvestimentos.com.br/).",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "laravel-mix": "^6.0.41",
+    "resolve-url-loader": "^5.0.0",
+    "sass": "^1.49.0",
+    "sass-loader": "^12.1.0"
+  },
+  "dependencies": {
+    "@babel/preset-react": "^7.16.7"
+  }
+}

@@ -1,0 +1,48 @@
+{
+    "category": "GPR Blocks",
+    "startCollapsed": true,
+    "blocks": [
+        {
+            "path": "./cta/"
+        },
+        {
+            "path": "./ctaempre/"
+        },
+        {
+            "path": "./depoimentos/"
+        },
+        {
+            "path": "./numeros/"
+        },
+        {
+            "path": "./heading/"
+        },
+        {
+            "path": "./faq/"
+        },
+        {
+            "path": "./present/"
+        },
+        {
+            "path": "./video/"
+        },
+        {
+            "path": "./galeria/"
+        },
+        {
+            "path": "./andamento/"
+        },
+        {
+            "path": "./anoarquivo/"
+        },
+        {
+            "path": "./etapas/"
+        },
+        {
+            "path": "./btns/"
+        },
+        {
+            "path": "./mapempre/"
+        }
+    ]
+}

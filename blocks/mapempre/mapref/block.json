@@ -1,0 +1,20 @@
+{
+    "slug": "mapref",
+    "title": "(Mapa) Referência",
+    "desc": "Referência",
+    "icon": " bi bi-map",
+    "categ": "gprblock",
+    "attrs": {
+        "desc": {
+            "type": "string"
+        }
+    },
+    "edit": [
+        {
+            "tag": "input",
+            "type": "rich",
+            "attr": "desc",
+            "label": "Descrição"        
+        }
+    ]
+}

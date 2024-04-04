@@ -1,0 +1,54 @@
+{
+    "slug": "mapempre",
+    "title": "Mapa Empreendimento",
+    "desc": "Mapa",
+    "icon": " bi bi-map",
+    "categ": "gprblock",
+    "usesInner": true,
+    "attrs": {
+        "title": {
+            "type": "string"
+        },
+        "link": {
+            "type": "string"
+        },
+        "address": {
+            "type": "string"
+        }
+    },
+    "edit": [
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "title",
+            "label": "Título"
+        },
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "link",
+            "label": "Link botão"
+        },
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "address",
+            "label": "Endereço"
+        },
+        {
+            "tag": "title",
+            "title": "Referências"
+        },
+        {
+            "tag": "input",
+            "type": "inner",
+            "blocks": [ "gprblock/mapref" ],
+            "label": "Referências"
+        }
+    ],
+    "children": [
+        {
+            "path": "mapref/"
+        }
+    ]
+}

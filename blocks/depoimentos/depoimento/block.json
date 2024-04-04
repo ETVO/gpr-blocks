@@ -1,0 +1,38 @@
+{
+    "slug": "depoimento",
+    "title": "(Depoimentos) Depoimento",
+    "desc": "Texto, Foto e Nome",
+    "icon": " bi bi-quote",
+    "categ": "gprblock",
+    "attrs": {
+        "text": {
+            "type": "string"
+        },
+        "photo": {
+            "type": "string"
+        },
+        "name": {
+            "type": "string"
+        }
+    },
+    "edit": [
+        {
+            "tag": "input",
+            "type": "rich",
+            "attr": "text",
+            "label": "Texto do depoimento"        
+        },
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "name",
+            "label": "Nome do autor"
+        },
+        {
+            "tag": "input",
+            "type": "image",
+            "attr": "photo",
+            "label": "Foto do autor"
+        }
+    ]
+}

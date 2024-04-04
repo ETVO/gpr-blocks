@@ -1,0 +1,36 @@
+{
+    "slug": "faq",
+    "title": "FAQ",
+    "desc": "FAQ",
+    "icon": " bi bi-question",
+    "categ": "gprblock",
+    "usesInner": true,
+    "attrs": {
+        "title": {
+            "type": "string"
+        }
+    },
+    "edit": [
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "title",
+            "label": "Título"
+        },
+        {
+            "tag": "title",
+            "title": "Perguntas"
+        },
+        {
+            "tag": "input",
+            "type": "inner",
+            "blocks": [ "gprblock/pergunta" ],
+            "label": "Perguntas"
+        }
+    ],
+    "children": [
+        {
+            "path": "pergunta/"
+        }
+    ]
+}

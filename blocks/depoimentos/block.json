@@ -1,0 +1,27 @@
+{
+    "slug": "depoimentos",
+    "title": "Depoimentos",
+    "desc": "Depoimentos",
+    "icon": " bi bi-quote",
+    "categ": "gprblock",
+    "usesInner": true,
+    "attrs": {
+    },
+    "edit": [
+        {
+            "tag": "title",
+            "title": "Depoimentos"
+        },
+        {
+            "tag": "input",
+            "type": "inner",
+            "blocks": [ "gprblock/depoimento" ],
+            "label": "Depoimentos"
+        }
+    ],
+    "children": [
+        {
+            "path": "depoimento/"
+        }
+    ]
+}

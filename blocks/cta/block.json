@@ -1,0 +1,27 @@
+{
+    "slug": "cta",
+    "title": "CTA",
+    "desc": "CTA Carrossel",
+    "icon": " bi bi-flag",
+    "categ": "gprblock",
+    "usesInner": true,
+    "attrs": {
+    },
+    "edit": [
+        {
+            "tag": "title",
+            "title": "Banners"
+        },
+        {
+            "tag": "input",
+            "type": "inner",
+            "blocks": [ "gprblock/banner" ],
+            "label": "Banners"
+        }
+    ],
+    "children": [
+        {
+            "path": "banner/"
+        }
+    ]
+}

@@ -1,0 +1,44 @@
+.gpr-anoarquivo {
+    background-color: white;
+    border-radius: 20px;
+
+    padding: 1rem;
+
+    .year {
+        color: var(--bs-primary);
+    }
+
+    .months {
+        .month {
+            a {
+                border-radius: 50rem;
+                display: block;
+                text-align: center;
+                font-size: .9rem;
+                padding: 5px 15px;
+
+                border: solid 1px #708E98;
+                color: #708E98;
+
+                background-color: transparent;
+
+                transition: background-color .2s;
+                
+                &:hover,
+                &:active {
+                    background-color: #708E98;
+                    color: #fff;
+                    // border-color: #1a343b;
+                }
+            }
+
+            &.disabled {
+                opacity: .2; 
+                a {
+                    pointer-events: none;
+                    cursor: default;
+                }
+            }
+        }
+    }
+}

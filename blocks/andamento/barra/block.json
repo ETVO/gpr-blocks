@@ -1,0 +1,30 @@
+{
+    "slug": "barra",
+    "title": "(Andamento) Barra",
+    "desc": "Porcentagem e Descrição",
+    "icon": " bi bi-layout-text-sidebar",
+    "categ": "gprblock",
+    "attrs": {
+        "desc": {
+            "type": "string"
+        },
+        "percent": {
+            "type": "string"
+        }
+    },
+    "edit": [
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "desc",
+            "label": "Descrição"
+        },
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "percent",
+            "label": "Porcentagem de progresso",        
+            "help": "Apenas números!"        
+        }
+    ]
+}

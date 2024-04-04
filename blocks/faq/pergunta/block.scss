@@ -1,0 +1,22 @@
+.gpr-pergunta {
+    &.accordion-item {
+        background: none;
+        border: none;
+    }
+    .accordion {
+
+        &-header {
+            button {
+                font-weight: bold;
+                color: #195766;
+                background: none;
+                border: none;
+            }
+        }
+
+        &-body {
+            color: #195766;
+            font-size: .9rem;
+        }
+    }
+}

@@ -1,0 +1,50 @@
+{
+    "slug": "anoarquivo",
+    "title": "Ano Arquivo",
+    "desc": "Ano e Arquivo de Meses",
+    "icon": " bi bi-bookshelf",
+    "categ": "gprblock",
+    "usesInner": true,
+    "attrs": {
+        "year": {
+            "type": "string"
+        }
+    },
+    "edit": [
+        {
+            "tag": "title",
+            "title": "Ano"
+        },
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "year",
+            "label": "Ano"
+        },
+        {
+            "tag": "input",
+            "type": "template",
+            "blocks": [ "gprblock/link" ],
+            "template": [ 
+                ["gprblock/link", {"text": "Janeiro"}], 
+                ["gprblock/link", {"text": "Fevereiro"}], 
+                ["gprblock/link", {"text": "Março"}], 
+                ["gprblock/link", {"text": "Abril"}], 
+                ["gprblock/link", {"text": "Maio"}], 
+                ["gprblock/link", {"text": "Junho"}], 
+                ["gprblock/link", {"text": "Julho"}], 
+                ["gprblock/link", {"text": "Agosto"}], 
+                ["gprblock/link", {"text": "Setembro"}], 
+                ["gprblock/link", {"text": "Outubro"}], 
+                ["gprblock/link", {"text": "Novembro"}], 
+                ["gprblock/link", {"text": "Dezembro"}]            
+            ],
+            "label": "Links"
+        }
+    ],
+    "children": [
+        {
+            "path": "link/"
+        }
+    ]
+}

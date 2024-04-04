@@ -1,0 +1,54 @@
+{
+    "slug": "present",
+    "title": "Apresentação",
+    "desc": "Características em Destaque",
+    "icon": " bi bi-award",
+    "categ": "gprblock",
+    "usesInner": true,
+    "attrs": {
+        "title": {
+            "type": "string"
+        },
+        "image": {
+            "type": "string"
+        },
+        "text": {
+            "type": "string"
+        }
+    },
+    "edit": [
+        {
+            "tag": "input",
+            "type": "image",
+            "attr": "image",
+            "label": "Imagem de fundo"
+        },
+        {
+            "tag": "input",
+            "type": "text",
+            "attr": "title",
+            "label": "Título"
+        },
+        {
+            "tag": "input",
+            "type": "rich",
+            "attr": "text",
+            "label": "Texto"
+        },
+        {
+            "tag": "title",
+            "title": "Características"
+        },
+        {
+            "tag": "input",
+            "type": "inner",
+            "blocks": [ "gprblock/carac" ],
+            "label": "Características"
+        }
+    ],
+    "children": [
+        {
+            "path": "carac/"
+        }
+    ]
+}
