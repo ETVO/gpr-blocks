@@ -8,7 +8,7 @@ function render_block_numeros($attributes, $content)
     ob_start(); // Start HTML buffering
 ?>
 
-    <div class="gpr-numeros py-5 bg-white">
+    <div class="gpr-numeros py-5">
         <div class="container col-12 col-md-10 py-3 mx-auto">
             <div class="title text-center pb-4">
                 <h2 class="text-bluegpr"><?php echo $title; ?></h2>
